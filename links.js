@@ -4,7 +4,7 @@ fetch('links.json')
     .then(data => {
         const links = data.links;
         links.forEach(link => {
-            const a = document.createElement('a');
+            const a = document.createElement('button');
             a.href = link.url;
             a.textContent = link.name;
             linksList.appendChild(a);
