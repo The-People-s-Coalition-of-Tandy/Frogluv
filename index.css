@@ -25,6 +25,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
 }
 
 #links a {
@@ -72,18 +75,14 @@ h1{
 
 
 
-  #tandy{
-    /* position: sticky; */
-    /* bottom: 0; */
-    margin-top: 100px;
-    background-color: magenta;
-    color: aqua;
-    border: 4px aqua ridge;
-    padding: 20px;
-}
 
 #lissa{
     position: absolute;
     bottom: 0;
     
+}
+
+img{
+    /* width: 300px; */
+    margin: 5px;
 }
