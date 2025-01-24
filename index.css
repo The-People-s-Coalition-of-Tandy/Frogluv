@@ -52,6 +52,8 @@ button{
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    transform: translateX(calc((100% - 100vw) / 2));
+    overflow-x: hidden;
   }
 
 h1{
